@@ -1,0 +1,19 @@
+{
+  "dataset_id": "pt_bosque-ud-test",
+  "num_documents": 39,
+  "num_annotated_documents": 39,
+  "num_annotations": 3511,
+  "num_annotators": 1,
+  "annotator_ids": [
+    "borje"
+  ],
+  "num_docs_with_multiple_annotators": 0,
+  "num_sentences": 1167,
+  "num_tokens": 27604,
+  "label_distribution": {
+    "ORG": 456,
+    "PER": 442,
+    "LOC": 317
+  },
+  "pairwise_f1": {}
+}
