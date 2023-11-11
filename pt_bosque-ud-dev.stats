@@ -2,12 +2,13 @@
   "dataset_id": "pt_bosque-ud-dev",
   "num_documents": 40,
   "num_annotated_documents": 40,
-  "num_annotations": 5363,
-  "num_annotators": 1,
+  "num_annotations": 5829,
+  "num_annotators": 2,
   "annotator_ids": [
-    "borje"
+    "borje",
+    "mrskarlsson"
   ],
-  "num_docs_with_multiple_annotators": 0,
+  "num_docs_with_multiple_annotators": 10,
   "num_sentences": 1172,
   "num_tokens": 28447,
   "label_distribution": {
@@ -15,5 +16,41 @@
     "LOC": 414,
     "ORG": 417
   },
-  "pairwise_f1": {}
+  "pairwise_f1": {
+    "ref:borje, pred:mrskarlsson": {
+      "num_common_annotated_docs": 10,
+      "LOC": {
+        "precision": 0.8348623853211009,
+        "recall": 0.8666666666666667,
+        "f1": 0.8504672897196262
+      },
+      "ORG": {
+        "precision": 0.8651685393258427,
+        "recall": 0.9058823529411765,
+        "f1": 0.8850574712643678
+      },
+      "PER": {
+        "precision": 0.9716981132075472,
+        "recall": 0.9903846153846154,
+        "f1": 0.9809523809523809
+      }
+    },
+    "average": {
+      "LOC": {
+        "precision": 0.8348623853211009,
+        "recall": 0.8666666666666667,
+        "f1": 0.8504672897196262
+      },
+      "ORG": {
+        "precision": 0.8651685393258427,
+        "recall": 0.9058823529411765,
+        "f1": 0.8850574712643678
+      },
+      "PER": {
+        "precision": 0.9716981132075472,
+        "recall": 0.9903846153846154,
+        "f1": 0.9809523809523809
+      }
+    }
+  }
 }
